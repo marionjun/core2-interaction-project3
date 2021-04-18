@@ -15,7 +15,7 @@
 
 body {
     /* background-color: #35343C;  */
-   background-image: url("/assets/bgimage.jpeg");
+   background-image: url("./assets/bgimage.jpeg");
     font-family: "Space Mono Bold";
     font-weight: bold;
     text-align: center;
