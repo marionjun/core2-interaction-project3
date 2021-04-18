@@ -131,9 +131,10 @@ body {
   }
   
   .crystal-meaning {
-   text-align: center;
+    font-family: "Space Mono Regular";
     font-weight: normal;
     font-size: 1.5rem;
+  }
   }
   
   .js-brown {
