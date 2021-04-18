@@ -373,4 +373,59 @@ body {
     border: 1.5px solid white;
   }
   
+  /* mobile */
+@media only screen and (max-width: 50rem) {
+
+    .crystal-container {
+        padding: 1rem;
+        border: 1.5px solid black;
+        border-radius: 0px; 
+       width: 130px;
+       height: 130px;
+       padding-top: 1rem;
+       padding-bottom: 1rem;
+     
+     } 
+     
+     .crystal-image {
+       width: 60px;
+       padding-left: 0rem;
+       padding-right: 0rem;
+     }
+ 
+     
+     img {
+       width: 60px;
+     }
+     .crystalone {
+       position: absolute;
+       left: 350px;
+       top: 50px;
+     }
+     
+     .crystaltwo {
+       position: absolute;
+       right: 350px;
+       top: 60px;
+     }
+     
+     
+     h2 {
+       padding-top: 0rem;
+       margin-bottom: 2rem;
+       margin-top: 4rem;
+       font-size: 3rem;
+     }
+     
+     
+     
+     .crystal-title {
+       font-size: .8rem;
+     }
+     
+     .crystal-meaning {
+       font-size: .5rem;
+     } 
+  
+}
   
