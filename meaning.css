@@ -390,7 +390,7 @@ body {
      } 
      
      .crystal-image {
-       width: 60px;
+       width: 55px;
        padding-left: 0rem;
        padding-right: 0rem;
      }
@@ -432,7 +432,7 @@ body {
     height: 15rem;
     width: 20rem;
     top: 8rem;
-    padding: 2rem;
+    padding: 1rem;
     padding-top: 1rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
