@@ -380,8 +380,8 @@ body {
         padding: 1rem;
         border: 1.5px solid black;
         border-radius: 0px; 
-       width: 130px;
-       height: 130px;
+       width: 100px;
+       height: 100px;
        padding-top: 1rem;
        padding-bottom: 1rem;
      
@@ -395,17 +395,17 @@ body {
  
      
      img {
-       width: 60px;
+       width: 40px;
      }
      .crystalone {
        position: absolute;
-       left: 350px;
+       left: 330px;
        top: 50px;
      }
      
      .crystaltwo {
        position: absolute;
-       right: 350px;
+       right: 330px;
        top: 60px;
      }
      
@@ -414,7 +414,7 @@ body {
        padding-top: 0rem;
        margin-bottom: 2rem;
        margin-top: 4rem;
-       font-size: 3rem;
+       font-size: 2rem;
      }
      
      
