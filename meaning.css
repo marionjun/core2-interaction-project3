@@ -50,15 +50,19 @@ body {
   .filter {
     position: absolute;
     float: center;
-  /* border: 1px solid black;  */
-    height: 20rem;
-    width: 24rem;
+   /* border: 1px solid green;   */
+    height: 15rem;
+    width: 76rem;
     top: 8rem;
     padding: 7rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-gap: 2rem;
+    font-family: "Space Mono Regular";
+    font-size: 1rem;
+    color: white;
+    line-height: 0.5rem;
     
   }
   
@@ -136,30 +140,25 @@ body {
   } */
   
   .js-grounding {
-    font-family: "Space Mono";
+    font-family: "Space Mono Regular";
     font-size: 1rem;
-    background-color: brown;
   }
   
   .js-empowerment {
-    font-family: "Space Mono";
+    font-family: "Space Mono Regular";
     font-size: 1rem;
-    background-color: red;
   }
   .js-happiness {
-     font-family: "Space Mono";
+     font-family: "Space Mono Regular";
     font-size: 1rem;
-    background-color: green;
   }
   .js-truth {
-     font-family: "Space Mono";
+     font-family: "Space Mono Regular";
     font-size: 1rem;
-    background-color: green;
   }
   .js-warmth {
-     font-family: "Space Mono";
+     font-family: "Space Mono Regular";
     font-size: 1rem;
-    background-color: green;
   }
   /* .js-brown {
     border: 1px solid black;
@@ -376,15 +375,15 @@ body {
         display: grid;
         grid-template-columns: repeat(3, 0fr);
         grid-gap: 0rem;
-         margin-top: 10rem;
+         margin-top: 20rem;
       }
 
-    .crystal-container {
+      .crystal-container {
         padding: 1rem;
         border: 1.5px solid black;
         border-radius: 0px; 
-       width: 130px;
-       height: 130px;
+       width: 95px;
+       height: 100px;
        padding-top: 1rem;
        padding-bottom: 1rem;
      
@@ -396,14 +395,28 @@ body {
        padding-right: 0rem;
      }
  
-    
+     
+     img {
+       width: 40px;
+     }
+     .crystalone {
+       position: absolute;
+       left: 290px;
+       top: 60px;
+     }
+     
+     .crystaltwo {
+       position: absolute;
+       right: 290px;
+       top: 70px;
+     }
      
      
      h2 {
        padding-top: 0rem;
        margin-bottom: 2rem;
        margin-top: 4rem;
-       font-size: 3rem;
+       font-size: 2rem;
      }
      
      
@@ -417,113 +430,46 @@ body {
      } 
   
      .filter {
-        position: absolute;
-        float: center;
-      /* border: 1px solid red;   */
-        height: 2rem;
-        width: 25rem;
-        top: 8rem;
-        padding: 3rem;
-        padding-top: 1rem;
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-gap: 1rem;
-      }
+    position: absolute;
+    float: center;
+/*    border: 1px solid green;   */
+    height: 15rem;
+    width: 20rem;
+    top: 8rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    font-family: "Space Mono Regular";
+    font-size: .5rem;
+    color: white;
+    line-height: 0.1rem;
+    
+  }
+  .js-grounding {
+    font-family: "Space Mono Regular";
+    font-size: .5rem;
+  }
+  
+  .js-empowerment {
+    font-family: "Space Mono Regular";
+    font-size: .5rem;
+  }
+  .js-happiness {
+     font-family: "Space Mono Regular";
+    font-size: .5rem;
+  }
+  .js-truth {
+     font-family: "Space Mono Regular";
+    font-size: .5rem;
+  }
+  .js-warmth {
+     font-family: "Space Mono Regular";
+    font-size: .5rem;
+  }
 
-      .js-brown {
-        border: 1px solid black;
-        width: 30px;
-        height: 30px;
-        border-radius: 100px;
-        background-color: rgb(73, 32, 32);
-      }
       
-      .js-red {
-        border: 1px solid black; 
-        width: 30px;
-        height: 30px;
-        border-radius: 100px;
-        background-color: rgb(158, 12, 12);
-      }
-      
-      .js-green {
-        border: 1px solid black; 
-        width: 30px;
-        height: 30px;
-        border-radius: 100px;
-        background-color: rgb(76, 167, 76);
-      }
-      
-      .js-purple {
-        border: 1px solid black; 
-        width: 30px;
-        height: 30px;
-        border-radius: 100px;
-        background-color: rgb(107, 52, 107);
-      }
-      
-      .js-orange {
-       border: 1px solid black; 
-       width: 30px;
-       height: 30px;
-        border-radius: 100px;
-        background-color: rgb(245, 178, 32);
-      }
-      
-      .js-blue {
-        border: 1px solid black; 
-        width: 30px;
-        height: 30px;
-        border-radius: 100px;
-        background-color: rgb(27, 27, 146);
-      }
-      
-      .js-black {
-        border: 1px solid black; 
-        width: 30px;
-        height: 30px;
-        border-radius: 100px;
-        background-color: rgb(31, 31, 31);
-      }
-      
-      .js-yellow {
-         border: 1px solid black; 
-         width: 30px;
-         height: 30px;
-        border-radius: 100px;
-        background-color: rgb(231, 215, 68);
-      }
-      
-      .js-grey {
-         border: 1px solid black; 
-         width: 30px;
-         height: 30px;
-        border-radius: 100px;
-        background-color: rgb(122, 116, 116);
-      }
-      
-      .js-white {
-         border: 1px solid black; 
-         width: 30px;
-        height: 30px;
-        border-radius: 100px;
-        background-color: rgb(255, 241, 223);
-      }
-      
-      .js-pink {
-      border: 1px solid black; 
-      width: 30px;
-      height: 30px;
-        border-radius: 100px;
-        background-color: rgb(233, 179, 188);
-      }
-      
-      .js-reset {
-        width: 30px;
-        height: 30px;
-      }
 
 }
-  
-  
   

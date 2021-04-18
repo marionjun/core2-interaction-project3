@@ -353,12 +353,12 @@ body {
          margin-top: 10rem;
       }
 
-    .crystal-container {
+      .crystal-container {
         padding: 1rem;
         border: 1.5px solid black;
         border-radius: 0px; 
-       width: 130px;
-       height: 130px;
+       width: 95px;
+       height: 100px;
        padding-top: 1rem;
        padding-bottom: 1rem;
      
@@ -372,18 +372,18 @@ body {
  
      
      img {
-       width: 60px;
+       width: 40px;
      }
      .crystalone {
        position: absolute;
-       left: 350px;
-       top: 50px;
+       left: 290px;
+       top: 60px;
      }
      
      .crystaltwo {
        position: absolute;
-       right: 350px;
-       top: 60px;
+       right: 290px;
+       top: 70px;
      }
      
      
@@ -391,7 +391,7 @@ body {
        padding-top: 0rem;
        margin-bottom: 2rem;
        margin-top: 4rem;
-       font-size: 3rem;
+       font-size: 2rem;
      }
      
      
@@ -403,13 +403,13 @@ body {
      .crystal-meaning {
        font-size: .5rem;
      } 
-  
+     
      .filter {
         position: fixed;
         float: center;
-      /* border: 1px solid red;   */
+/*       border: 1px solid green;   */
         height: 2rem;
-        width: 25rem;
+        width: 18rem;
         top: 8rem;
         padding: 3rem;
         padding-top: 1rem;
@@ -512,8 +512,3 @@ body {
       }
 
 }
-  
-  
-  
-  
-  

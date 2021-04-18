@@ -46,7 +46,6 @@ body {
     grid-template-columns: repeat(3, 0fr);
     grid-gap: 0rem;
   }
-  
   .filter {
     position: absolute;
     float: left;
@@ -61,6 +60,7 @@ body {
     grid-gap: 0.1rem;
     
   }
+  
   
   img {
     width: 100px;
@@ -380,7 +380,7 @@ body {
         padding: 1rem;
         border: 1.5px solid black;
         border-radius: 0px; 
-       width: 100px;
+       width: 95px;
        height: 100px;
        padding-top: 1rem;
        padding-bottom: 1rem;
@@ -399,14 +399,14 @@ body {
      }
      .crystalone {
        position: absolute;
-       left: 330px;
-       top: 50px;
+       left: 290px;
+       top: 60px;
      }
      
      .crystaltwo {
        position: absolute;
-       right: 330px;
-       top: 60px;
+       right: 290px;
+       top: 70px;
      }
      
      
@@ -427,5 +427,10 @@ body {
        font-size: .5rem;
      } 
   
+  .filter { 
+  height: 2rem;
+  width: 2rem;
+  
+}
 }
   
