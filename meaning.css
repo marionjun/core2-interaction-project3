@@ -384,7 +384,7 @@ body {
         border-radius: 0px; 
        width: 95px;
        height: 100px;
-       padding-top: 1rem;
+       padding-top: .5rem;
        padding-bottom: 1rem;
      
      } 
@@ -422,13 +422,9 @@ body {
      
      
      .crystal-title {
-       font-size: .8rem;
+       font-size: .7rem;
      }
-     
-     .crystal-meaning {
-       font-size: .5rem;
-     } 
-  
+   
      .filter {
     position: absolute;
     float: center;
@@ -439,7 +435,7 @@ body {
     padding: 2rem;
     padding-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 1rem;
     font-family: "Space Mono Regular";
     font-size: .5rem;
