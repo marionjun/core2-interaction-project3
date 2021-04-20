@@ -423,6 +423,7 @@ body {
      
      .crystal-title {
        font-size: .7rem;
+       margin-bottom: 10px;
      }
    
      .filter {
