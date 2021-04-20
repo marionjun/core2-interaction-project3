@@ -40,17 +40,17 @@ body {
   
   .container {
     width: 100%;
-  /* background: lightpink; */
+   /* background: lightpink;  */
     display: grid;
     grid-template-columns: repeat(3, 0fr);
     grid-gap: 0rem;
-     margin-top: 8rem;
+     margin-top: 25rem;
   }
   
   .filter {
     position: absolute;
     float: center;
-   /* border: 1px solid green;   */
+    /* border: 1px solid green;   */
     height: 15rem;
     width: 76rem;
     top: 8rem;
@@ -130,7 +130,7 @@ body {
   
   .crystal-title {
    text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
   }
   
   /* .crystal-meaning {
